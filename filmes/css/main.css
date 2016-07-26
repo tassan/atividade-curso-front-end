@@ -321,3 +321,24 @@ body {
 .filme-nota i:hover {
     color: #D10839;
 }
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid #e4bb23;
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: -15px;
+    right: -25px;
+}
+
+.fa-plus {
+    position: absolute;
+    font-size: 1.6em;
+    bottom: 4px;
+    right: 7px;
+    z-index: 1;
+    color: #fff;
+}
