@@ -218,6 +218,12 @@ body {
     background: #fff;
     border-radius: 2px;
     overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.catalogo-filmes-lista-item:nth-child(3n) {
+    margin-right: 0;
 }
 
 .filme-poster {
@@ -229,8 +235,9 @@ body {
 }
 
 .filme-poster img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .filme-poster-info {
