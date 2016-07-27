@@ -385,31 +385,58 @@ body {
     background-color: #fff;
     padding: 40px 0;
     color: #bababa;
+    text-align: center;
 }
 
 .rodape-imagem {
-
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .rodape-lista {
+    padding: 0;
+    margin: 0 auto;
     list-style: none;
+    width: auto;
+    display: inline-block;
 }
 
 .rodape-lista-item {
-    font-size: 3em;
-    list-style: none;
-    display: inline-block;
-    padding: 20px;
+    float: left;
+    margin-right: 50px;
+}
+
+.rodape-lista-item:last-child {
+    margin-right: 0;
 }
 
 .rodape-lista-item a {
+    font-size: 3em;
     color: #bababa;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.icone-twitter a:hover {
+    color: #55acee;
+}
+
+.icone-facebook a:hover {
+    color: #3b5998;
+}
+
+.icone-instagram a:hover {
+    color: #e95950;
 }
 
 .copyright {
-    float: right;
-    text-transform: uppercase;
-    font-style: 'Montserrat', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.2em;
+    position: absolute;
+    right: 0;
+    top: 0;
     font-weight: bold;
+    font-style: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-top: 10px;
 }
