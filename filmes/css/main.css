@@ -389,7 +389,7 @@ body {
 }
 
 .rodape-imagem {
-    position: absolute;
+    position: relative;
     left: 0;
     top: 0;
 }
@@ -432,7 +432,7 @@ body {
 
 .copyright {
     font-size: 1.2em;
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
     font-weight: bold;
