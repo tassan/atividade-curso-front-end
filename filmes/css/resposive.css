@@ -21,8 +21,9 @@
 		z-index: 99;
 		background-color: #fff;
 		border-bottom: 1px solid #ccc;
-		box-shadow: 0 2px 5px rgba(0,0,0,.5);
+		box-shadow: 0 2px 5px rgba(0,0,0,.5)
 	}
+
 	.hero-logo {
 		height: 40px;
 		margin: 5px;
@@ -33,12 +34,25 @@
 		width: auto;
 	}
 
+	.hamburger {
+		visibility: visible;
+		display: table;
+		font-size: 3em;
+		background-color: transparent;
+		border: none;
+		padding: 8px 0;
+		position: relative;
+		float: right;
+		margin-right: 20px;
+	}
+
 	.hero-lista {
 		width: 100%;
 		margin-top: 0;
 		background-color: #e4bb23;
 		margin-bottom: -3px;
 		display: none;
+		visibility: hidden;
 	}
 
 	.hero-lista-item {
@@ -48,15 +62,15 @@
 	}
 
 	.hero-lista-item a {
-		font-size: 1em;
+		font-size: 1.2em;
 		color: #333;
 		padding: 10px 20px;
 		display: block;
-		border-bottom: 1px solid rgba(0,0,0,.5);
+		border-bottom: 1px solid rgba(0,0,0,.1);
 	}
 
 	.hero-lista-item a:hover {
-		background-color: rgba(0,0,0,.5);
+		background-color: rgba(0,0,0,.1);
 		color: #fff;
 	}
 
@@ -67,24 +81,26 @@
 
 	.hero-conteudo {
 		width: 100%;
+		padding-top: 30%;
 	}
 
 	.hero-titulo {
 		font-size: 3em;
+
 	}
 
-	.hero-genero-item {
-		display: inline-block;;
-		padding: 5px 5px;
-		color: #000;
-		font-size: 1em;
-		background-color: #e4bb23;
-		border-radius: 5px;
-		margin-right: 5px;
+	.hero-genero-item { 
+		display: inline-block;
+	    padding: 5px 10px;
+	    color: #000;
+	    font-size: 1em;
+	    background-color: #e4bb23;
+	    border-radius: 5px;
+	    margin-right: 5px;
 	}
 
 	.hero-botao {
-		margin-top: 30% auto 0;
+		margin: 30% auto 0;
 		display: table;
 		background-color: #3498db;
 		color: #fff;
@@ -93,8 +109,7 @@
 
 	.hero-botao:hover {
 		background-color: #2980b9;
-		box-shadow: 0 0 0 #2980b9;
-	}
+	}	
 
 	.hero-informacao {
 		text-align: center;
@@ -109,9 +124,131 @@
 		background-color: #e4bb23;
 	}
 
-	.catalogo-menu-lista {
+	.catalogo-menu-lista-item {
 		width: 50%;
 		height: auto;
 		margin-right: 0;
 	}
-}
+	
+	.catalogo-menu-lista-item:last-child {
+		visibility: hidden;
+		display: none;
+	}
+
+	.catalogo-menu-lista-item a {
+		color: #fff;
+		width: 100%;
+		height: auto;
+		padding: 10px;
+		display: block;
+		border-bottom: 1px solid rgba(0,0,0,0.1);
+		border-right: 1px solid rgba(0,0,0,0.1);
+	}
+
+	.catalogo-menu-lista-item a:hover {
+		background-color: rgba(0,0,0,0.1);
+		box-shadow: none;
+	}
+
+	.catalogo-filmes-lista {
+		padding: 5% 0;
+	}
+
+	.catalogo-filmes-lista-item {
+		width: 47%;
+		margin-right: 0;
+		overflow: hidden;
+	}
+
+	.catalogo-filmes-lista-item:nth-child(even) {
+			float: right;
+		}
+	}
+
+	.filme-poster {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+
+	.filme-poster img {
+		width: auto;
+		height: 245px;
+		margin: 0 auto;
+	}
+
+	.filme-poster-info {
+		padding: 5px;
+	}
+
+	.filme-poster-info h3{
+		font-size: 2em;
+	}
+
+	.filme-poster-link {
+		font-size: 3em;
+	}
+
+	.filme-sinopse {
+		padding: 5px;
+	}
+
+	.filme-sinopse-titulo {
+		letter-spacing: 0;
+		height: 38px;
+	}
+
+	.sinopse-genero {
+		display: none;
+	}
+
+	.carregar-mais {
+		font-size: 2em;
+		padding: 15px
+	}
+
+	.rodape {
+		padding: 20px 0;
+		text-align: center;
+	}
+
+	.rodape-imagem {
+		position: relative;
+		display: table;
+		margin: 0 auto 20px;
+	}
+
+	.rodape-lista {
+		display: table;
+	}
+
+	.copyright {
+		position: relative;
+		display: table;
+		margin: 20px auto;
+	}
+
+
+}/* Fim da regra */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
