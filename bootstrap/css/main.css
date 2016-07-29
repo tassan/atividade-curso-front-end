@@ -1,0 +1,10 @@
+.img-thumbnail {
+	width: 100%;
+	height: auto;
+}
+
+.col-xs-12,
+.col-sm-6, 
+.col-md-4 {
+	margin-bottom: 20px;
+}
