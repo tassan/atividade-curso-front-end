@@ -15,58 +15,20 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-       
-       <div class="container">
-           <div class="row">
-               <div class="col-xs-12 col-sm-6 col-md-8 ">
-                  <h2>Hello World!</h2>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ea ratione laudantium eveniet aspernatur. Minima ullam doloribus cupiditate non ad, magni corporis nobis sed natus dolor perferendis eos, consectetur animi.</p>
-               </div>
-               <div class="col-xs-12 col-sm-6 col-md-4">
-               <form>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
-                    <input type="file" id="exampleInputFile">
-                    <p class="help-block">Example block-level help text here.</p>
-                  </div>
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox"> Check me out
-                    </label>
-                  </div>
-                  <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-               </div>
-           </div>
-       </div>
+    
+    <div class="container">
+      <p id="usuario"></p>
+    </div>
+    
 
-       <section>
-         <div class="container">
-           <h2>Galeria de Fotos</h2>
-           <div class="row">
-             <div class="col-xs-12 col-sm-6 col-md-4"><img class="img-thumbnail" src="http://placehold.it/200x200" alt=""></div>
-             <div class="col-xs-12 col-sm-6 col-md-4"><img class="img-thumbnail" src="http://placehold.it/200x200" alt=""></div>
-             <div class="col-xs-12 col-sm-6 col-md-4"><img class="img-thumbnail" src="http://placehold.it/200x200" alt=""></div>
-             <div class="col-xs-12 col-sm-6 col-md-4"><img class="img-thumbnail" src="http://placehold.it/200x200" alt=""></div>
-             <div class="col-xs-12 col-sm-6 col-md-4"><img class="img-thumbnail" src="http://placehold.it/200x200" alt=""></div>
-             <div class="col-xs-12 col-sm-6 col-md-4"><img class="img-thumbnail" src="http://placehold.it/200x200" alt=""></div>
-             <div class="col-xs-12 col-sm-6 col-md-4"><img class="img-thumbnail" src="http://placehold.it/200x200" alt=""></div>
-             <div class="col-xs-12 col-sm-6 col-md-4"><img class="img-thumbnail" src="http://placehold.it/200x200" alt=""></div>
-             <div class="col-xs-12 col-sm-6 col-md-4"><img class="img-thumbnail" src="http://placehold.it/200x200" alt=""></div>
+        <script>
+        var nome = prompt("Digite seu nome", "");
+        if (nome != null) {
+          document.getElementById("usuario").innerHTML = "Hello " + nome + "! How are you doing?";
+        }
+        </script>
 
-           </div>
-         </div>
-       </section>
         
-
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>

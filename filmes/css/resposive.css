@@ -228,7 +228,10 @@
 		margin: 20px auto;
 	}
 
-
+	.mostra-menu {
+		display: table!important;
+		visibility: visible!important;
+	}
 }/* Fim da regra */
 
 
